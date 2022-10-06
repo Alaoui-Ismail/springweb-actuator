@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springweb-actuator:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springweb-actuator</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springweb-actuator-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springweb-actuator:war exploded" />
+    </root>
+  </artifact>
+</component>
