@@ -13,15 +13,15 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.util.List;
 
-@EnableWebMvc
+/*@EnableWebMvc
 @Configuration
 @ComponentScan("com.demo.springwebactuator")
 @EnableAutoConfiguration(exclude = { DataSourceAutoConfiguration.class })
-@PropertySource(value = { "classpath:application.properties" })
+@PropertySource(value = { "classpath:application.properties" })*/
 public class WebConfig implements WebMvcConfigurer {
 
-    @Override
+   /* @Override
     public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
-        converters.add(new MappingJackson2HttpMessageConverter());
-    }
+     //   converters.add(new MappingJackson2HttpMessageConverter());
+    }*/
 }
